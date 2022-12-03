@@ -1,0 +1,24 @@
+Youtube Demo: http://youtu.be/rjVcI0njY04?list=PL1AQwE-TAr-dINf7tPwItHA2bSYlp8iqH
+
+Name: Blokus Game
+
+Features:
+	- Game Play
+	- Multi-players
+	- Game Room
+	
+Technology: 
+	- Front-end: 
+		- Javascript 
+			-> control all game logic
+			-> conrtol rendering
+		- Canvas
+			-> Rendering
+		- Websocket
+			-> stateful connection for muli-playing
+			-> send & receive msg
+	- Back-end:
+		- Node.js 
+			-> Message Broadcasting for game play
+			-> Game Room logic 
+			-> DB connection
